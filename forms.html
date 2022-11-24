@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список товаров</title>
+</head>
+<body>
+<h1 style="text-align: center">Список товаров</h1>
+<form action="/createProduct" method="post">
+    <input type="text" placeholder="Наименование товара" class="style">
+    <input type="textarea" placeholder="Описание товара " class="style">
+    <br>
+    <select class="style">
+        <option value="selected">Заказчики</option>
+        <option value="Ikki"> Ikki </option>
+        <option value="DDtech"> DDtech </option>
+        <option value="nizhpharm"> Nizhpharm </option>
+        <option value="SM"> SM </option>
+    </select>
+    <a href="profile.html">Открыть профиль заказчика</a>
+    <br>
+
+    <input type="file" placeholder="Изображение товара " class="style">
+    <br>
+    <input type="number" placeholder="Цена товара " class="style">
+
+    <input type="color" placeholder="Цвет товара " class="style">
+    <br>
+    <label>Одежда</label><input type="radio" class="style">
+    <label>Обувь</label><input type="radio" class="style">
+    <label>Аксессуары</label><input type="radio" class="style">
+    <br>
+    <button type="submit" class="style">Отправить</button>
+    <button type="reset" class="style">Отменить</button>
+</form>
+<style>
+    * {
+        text-align: center;
+        margin-top: 70px;
+
+    }
+    a{
+
+        color: black;
+    }
+
+    .style {
+        margin: 10px;
+    }
+body{
+    background-color: ghostwhite;
+}
+
+</style>
+
+</body>
+</html>
